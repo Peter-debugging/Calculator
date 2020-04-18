@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+*{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+  text-align:center;
+  font-size:30px;
+}
+
+h1{
+  font-weight: lighter;
+}
+
+main{
+  padding:15px;
+}
+
+input{
+  width:100%;
+  font-size:60px;
+  padding:5px;
+  box-sizing:border-box;
+  outline:none;
+  border:none;
+  background-color:rgba(0,0,0,0);
+  text-align:center;
+  font-family: 'Lato', sans-serif;
+}
+
+.buttons{
+  width:50%;
+  margin:auto;
+}
+
+button{
+  width:32.8%;
+  margin-top:3px;
+  cursor:pointer;
+  border:none;
+  background-color:rgb(196, 196, 196);
+  color:white;
+  font-size:30px;
+  outline:none;
+  height:60px;
+  font-family: 'Lato', sans-serif;
+}
+
+button:hover{
+  background-color:gray;
+}
